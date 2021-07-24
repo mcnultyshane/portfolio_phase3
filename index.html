@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <title>Shane McNulty's Professional Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assests/css/resets.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link rel="stylesheet" href="./assests/css/showcase.css">
+  <link rel="stylesheet" href="./assests/css/styles.css">
+  <title>Shane McNulty's Professional Portfolio</title>
 
 </head>
+
 <body>
-    <!-- Navigation bar -->
-    <nav class="navbar is-fixed-top">
-      <div class="navbar-brand">
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+
+  <!-- Navigation bar -->
+  <nav class="navbar is-fixed-top is-transparent">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="nav-links" class="navbar-menu  has-text-right background-transparent ">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">
+          <span class="icon">
+            <i class="fas fa-info"></i>
+          </span>
+          <span>About</span>
+        </a>
+        <a class="navbar-item" href="#project">
+          <span class="icon">
+            <i class="fas fa-th-list"></i>
+          </span>
+          <span>Projects</span>
+        </a>
+        <a class="navbar-item" href="#contact">
+          <span class="icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <span>Contact</span>
+        </a>
       </div>
-  
-      <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="#about">
-            <span class="icon">
-              <i class="fas fa-info"></i>
-            </span>
-            <span>About</span>
-          </a>
-          <a class="navbar-item" href="#portfolio">
-            <span class="icon">
-              <i class="fas fa-th-list"></i>
-            </span>
-            <span>Projects</span>
-          </a>
-          <a class="navbar-item" href="#contact">
-            <span class="icon">
-              <i class="fas fa-envelope"></i>
-            </span>
-            <span>Contact</span>
-          </a>
-        </div>
-      </div>
-    </nav>
+    </div>
+  </nav>
   <!-- Header -->
   <section class="hero is-fullheight is-fullheight-with-navbar">
     <div class="hero-body">
@@ -59,7 +65,110 @@
       </div>
     </div>
   </section>
+  <main class="box">
+    <div class="box">
+      <section class="tile is-ancestor">
+        <div class="tile is-3 is-vertical">
+          <h2 class="about_me" id="about">About Me</h2>
+        </div>
+        <div class="tile 10">
+          <p class="container">My name is Shane McNulty and welcome to my new Professional Portfolio. I am currently
+            enrolled in the University of Penn's Coding Boot Camp. I am learning full-stack development with a focus on
+            Javascript, CSS, HTML, MySQL along now moving into Mongo and Reach. This
+            Portfolio is designed
+            to
+            highlight my transition into Coding and Digitial Language. In addition to 20 years in the hospiality
+            industry, this portfolio is hoping convey my skill as a </br><strong>{{insert more}}</strong></br>I have
+            listed below a set of
+            links
+            that
+            will take you to the projects that I have completed or I am currently working on. I have
+            also
+            listed
+            my contact information below. Please feel free to reach out at any time if you have any
+            questions
+            about my work.</p>
+        </div>
+      </section>
+    </div>
+    <div class="box">
+      <section class="tile is-ancestor">
+        <div class="tile is-3 is-vertical">
+          <h2 class="work" id="project">Work</h2>
+        </div>
+        <div class="tile" id="projects-box">
+          <div class="columns  is-flex-wrap-wrap is-flex-direction-row project-windows">
+            <div class="column is-12">
+              <figure class="image project-blocks" id="work-project-a">
+                <img class="project-links is-full" src=""
+                  href="https://github.com/Keith-L-Watford/artists-and-bandstarget" target="_blank"
+                  rel="noopener noreferrer">
+                <p class="block-header"><strong>Movie Shelf</strong></p>
+              </figure>
+            </div>
+            <div class="column is-6">
+              <figure class="image project-blocks" id="work-project-b">
+                <img class="project-links" src="" href="https://github.com/Keith-L-Watford/artists-and-bandstarget"
+                  target="_blank" rel="noopener noreferrer">
+                <p class="block-header"><strong>Artists & Bands</strong></p>
+              </figure>
+            </div>
+            <div class="column is-6">
+              <figure class="image project-blocks" id="work-project-c">
+                <img class="project-links" src="" href="" target="_blank" rel="noopener noreferrer">
+                <p class="block-header"><strong>CSS Snipet Code Cheat Sheet</strong></p>
+              </figure>
+            </div>
+            <div class="column is-6">
+              <figure class="image project-blocks" id="work-project-d">
+                <img class="project-links" src="" href="" target="_blank" rel="noopener noreferrer">
+                <p class="block-header"><strong>Workday Scheduler</strong></p>
+              </figure>
+            </div>
+            <div class="column is-6">
+              <figure class="image project-blocks" id="work-project-e">
+                <img class="" src="" href="" target="_blank" rel="noopener noreferrer">
+                <p class="block-header"><strong>Password Generator</strong> </p>
+              </figure>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <div class="box">
+      <section class="columns is-ancestor">
+        <div class="column is-3" id="contact-box">
+          <h2 class="contact" id="contact">Contact</h2>
 
+        </div>
+        <div class="column">
+          <ul class="columns is-flex is-flex-wrap-wrap is-flex-direction-row contact-links ">
+            <li class="column icon has-text-centered" id="email">
+              <a href="mailto:mcnultyshane@gmail.com"><i title="Email" class="fas fa-envelope-square fa-4x"></i>
+              </a>
+            </li>
+            <li class="column icon has-text-centered" id="github">
+              <a href="https://www.linkedin.com/in/shane-mcnulty-5748aa1a/"><i title="LinkedIn"
+                  class="fab fa-linkedin fa-4x "></i>
+              </a>
+            </li>
+            <li class="column icon has-text-centered ">
+              <figure class="image is-128x128">
+                <img class="is-rounded" id="headshot" src="/assests/images/headshot-new.jpg">
+              </figure>
+            </li>
+            <li class="column icon has-text-centered" id="resume">
+              <a href="assets/images/SJM Resume.pdf"><i title="Resume" class="far fa-file fa-4x"></i></a>
+            </li>
+            <li class="column icon has-text-centered" id="phone">
+              <a href><i title="(570) 871-0473‬" class="fas fa-phone-square-alt fa-4x"></i> </a>
+            </li>
 
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
+
 </html>
