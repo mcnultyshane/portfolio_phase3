@@ -57,9 +57,7 @@ p {
     align-content: space-around;
     
 }
-.fas,
-.far,
-.fab {
+.link-icon {
     text-decoration: none;
     color: rgb(134, 167, 145);
 }
