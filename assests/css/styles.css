@@ -1,15 +1,72 @@
 * {
     font-family: 'Cormorant Garamond', serif;
- }
+
+}
+.navbar,
+.main-box {
+    background-color: rgb(134, 167, 145);
+}
 
 .hero {
-    background-image: url('../images/dushore-cabin.jpg');
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(229, 230, 190, 0.801), rgba(33, 148, 177, 0.65)), rgba(167, 211, 170, 0.575) url('../images/dushore-cabin.jpg') no-repeat;
     background-size: cover;
-    ;
-    opacity: 60%;
-    position: relative;;
+    background-attachment: fixed;
+    color: white !important;
+
 }
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+
+.header-icon {
+    margin-right: 1.5rem;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.project-links:active {
+    opacity: 50%;
+}
+
+.project-links:hover {
+    opacity: 50%;
+}
+
+#contact-box {
+    height: 10rem;
+    margin-left: 1rem;
+
+}
+
+#work-projects-id {
+    margin-left: 1rem;
+}
+
+.icon {
+    padding: 3rem;
+    align-content: space-around
+}
+
+.is-vertical {
+    margin-left: 1rem;
+    border-right: 4px solid rgb(134, 167, 145);
+    margin-right: 2rem;
+}
+.project-blocks {
+    padding: 1.5rem
+
+}
+/**/
 
 /* .header{
     height: 60rem
@@ -30,35 +87,10 @@
     background-repeat: no-repeat;
 }
 
-h2 {
-    font-size: 2.5rem; 
-}
-#projects-box {
-    
-    height: 100rem;
-}
 
-#contact-box {
-    height: 15rem;
-    margin-left: 1rem;
-    
-}
-
-#about_me{
-    margin-left: 1rem;
 }
 
 
-#work-projects-id{
-    margin-left: 1rem;
-}
-
-.icon {
-    padding: 4rem;
-    align-content:space-around
-}
 
 
-.project-links:active {
-    opacity: 50%;
-} */
+ */
