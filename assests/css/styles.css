@@ -54,7 +54,14 @@ p {
 
 .icon {
     padding: 3rem;
-    align-content: space-around
+    align-content: space-around;
+    
+}
+.fas,
+.far,
+.fab {
+    text-decoration: none;
+    color: rgb(134, 167, 145);
 }
 
 .is-vertical {
